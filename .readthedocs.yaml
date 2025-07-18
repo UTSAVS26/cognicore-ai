@@ -1,0 +1,30 @@
+# Read the Docs configuration file for CogniCore.
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details.
+
+# Required
+version: 2
+
+# Set the OS and Python version for the build environment.
+# Use a stable, widely-used Python version for building docs.
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.11"
+
+# Define the build process for Sphinx documentation.
+sphinx:
+  configuration: docs/source/conf.py
+
+# Declare the Python requirements needed to build your documentation.
+# This ensures that the build environment is reproducible.
+python:
+  install:
+    # We will install our package in editable mode with the "[dev]" extra.
+    # This is the most reliable method because it automatically installs Sphinx,
+    # Furo, sphinx-autodoc-typehints, and any other dependencies defined in
+    # pyproject.toml under the `dev` group.
+    # It also makes our "cognicore" package importable during the build.
+    - method: pip
+      path: .
+      extra_requirements:
+        - dev

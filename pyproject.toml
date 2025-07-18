@@ -1,0 +1,71 @@
+# Defines the build system and its requirements.
+# This tells tools like pip how to build your package.
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# Contains all the core metadata for your package.
+# This is what will be displayed on PyPI.
+[project]
+name = "cognicore-ai"
+version = "0.1.0"
+authors = [
+  { name="Utsav Singhal", email="utsavsinghal26@gmail.com" },
+]
+description = "A modular framework for building and testing conversational AI agents."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["ai", "agent", "llm", "conversational ai", "framework", "simulation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+# Core runtime dependencies.
+dependencies = [
+    "openai>=1.0.0",
+]
+
+# Optional dependencies, grouped for different purposes.
+# Users can install these with `pip install cognicore[dev]`.
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff",
+    # Documentation
+    "sphinx>=7.0",
+    "furo",
+    "sphinx-autodoc-typehints",
+    # Packaging & Releasing
+    "build",
+    "twine",
+]
+
+# Defines useful links that will appear on your PyPI page.
+[project.urls]
+Homepage = "https://github.com/UTSAVS26/cognicore-ai"
+"Bug Tracker" = "https://github.com/UTSAVS26/cognicore-ai/issues"
+Repository = "https://github.com/UTSAVS26/cognicore-ai"
+
+
+# --- Tool Configurations ---
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"] # Standard checks: pyflakes, pycodestyle, etc.
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
