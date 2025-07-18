@@ -7,12 +7,12 @@
   </p>
 
   <p>
-    <a href="https://pypi.org/project/cognicore-ai/"><img alt="PyPI Version" src="https://img.shields.io/pypi/v/cognicore-ai.svg"></a>
-    <a href="https://pypi.org/project/cognicore-ai/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/cognicore-ai.svg"></a>
-    <a href="https://github.com/UTSAVS26/cognicore-ai/actions/workflows/ci.yml"><img alt="Build Status" src="https://github.com/UTSAVS26/cognicore-ai/actions/workflows/ci.yml/badge.svg"></a>
-    <a href="https://github.com/UTSAVS26/cognicore-ai/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/pypi/l/cognicore-ai"></a>
+    <a href="https://pypi.org/project/cognicoreai/"><img alt="PyPI Version" src="https://img.shields.io/pypi/v/cognicoreai.svg"></a>
+    <a href="https://pypi.org/project/cognicoreai/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/cognicoreai.svg"></a>
+    <a href="https://github.com/UTSAVS26/cognicoreai/actions/workflows/ci.yml"><img alt="Build Status" src="https://github.com/UTSAVS26/cognicoreai/actions/workflows/ci.yml/badge.svg"></a>
+    <a href="https://github.com/UTSAVS26/cognicoreai/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/pypi/l/cognicoreai"></a>
     <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
-    <a href="https://cognicore-ai.readthedocs.io/en/latest/"><img alt="Documentation" src="https://img.shields.io/badge/Read-The%20Docs-blue"></a>
+    <a href="https://cognicoreai.readthedocs.io/en/latest/"><img alt="Documentation" src="https://img.shields.io/badge/Read-The%20Docs-blue"></a>
   </p>
 
 </div>
@@ -73,7 +73,7 @@ print(response)
 
 ## Documentation
 
-For full details on all modules, how-to guides, and advanced usage, please see the **[Official Documentation](https://cognicore-ai.readthedocs.io/en/latest/)**.
+For full details on all modules, how-to guides, and advanced usage, please see the **[Official Documentation](https://cognicoreai.readthedocs.io/en/latest/)**.
 
 The documentation covers:
 -   Creating custom tools.
