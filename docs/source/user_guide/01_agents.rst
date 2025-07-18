@@ -4,12 +4,12 @@
 Concept: The Agent
 =====================
 
-The **Agent** is the heart of the CogniCore framework. It is the central orchestrator that brings all other components together to create intelligent, interactive behavior. Think of the Agent as the "brain" of the operation.
+The **Agent** is the heart of the CogniCoreAI framework. It is the central orchestrator that brings all other components together to create intelligent, interactive behavior. Think of the Agent as the "brain" of the operation.
 
 Core Responsibilities
 ---------------------
 
-The ``cognicore.Agent`` class has several key responsibilities:
+The ``cognicoreai.Agent`` class has several key responsibilities:
 
 1.  **Managing the Conversation Flow:** The Agent controls the primary "Reason-Act" loop. When it receives input, it decides whether to respond directly, use a tool, or perform another action.
 2.  **Interacting with the LLM:** It formats the current conversation history and available tools into a prompt, sends it to the configured LLM (via the LLM abstraction), and processes the response.
@@ -19,13 +19,13 @@ The ``cognicore.Agent`` class has several key responsibilities:
 Composition over Inheritance
 ----------------------------
 
-A key design principle in CogniCore is "composition over inheritance." The Agent is not a monolithic entity; it is *composed* of other, smaller components at runtime.
+A key design principle in CogniCoreAI is "composition over inheritance." The Agent is not a monolithic entity; it is *composed* of other, smaller components at runtime.
 
 When you initialize an Agent, you provide it with the pieces it needs to function:
 
 .. code-block:: python
 
-   from cognicore import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
+   from cognicoreai import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
 
    # 1. The Agent is given an LLM instance to power its reasoning.
    llm = OpenAI_LLM()

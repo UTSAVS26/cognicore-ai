@@ -4,7 +4,7 @@
 How-To Guides
 =============
 
-This section provides practical, step-by-step recipes for common tasks and problems you might encounter while using CogniCore. These guides are more advanced than the "Getting Started" tutorial and focus on achieving specific outcomes.
+This section provides practical, step-by-step recipes for common tasks and problems you might encounter while using CogniCoreAI. These guides are more advanced than the "Getting Started" tutorial and focus on achieving specific outcomes.
 
 .. toctree::
    :maxdepth: 1

@@ -4,16 +4,16 @@
 Getting Started
 ===============
 
-Welcome to CogniCore! This guide will walk you through the entire process of installing the framework, setting up your environment, and running your first intelligent agent in just a few minutes.
+Welcome to CogniCoreAI! This guide will walk you through the entire process of installing the framework, setting up your environment, and running your first intelligent agent in just a few minutes.
 
 Step 1: Installation
 --------------------
 
-CogniCore is available on PyPI and can be installed with any modern Python package manager. We recommend `uv`, which is used for the development of CogniCore itself.
+CogniCoreAI is available on PyPI and can be installed with any modern Python package manager. We recommend `uv`, which is used for the development of CogniCoreAI itself.
 
 .. code-block:: bash
 
-   uv pip install cognicore
+   uv pip install cognicoreai
 
 
 Step 2: Set Your OpenAI API Key
@@ -46,7 +46,7 @@ Now you're ready to write some code! Create a new Python file (e.g., ``run_agent
 .. code-block:: python
    :linenos:
 
-   from cognicore import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
+   from cognicoreai import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
 
    def main():
        """Sets up and runs a simple conversational agent."""
@@ -102,7 +102,7 @@ You can now have a conversation. Try asking it a question that requires a tool:
    You: What is 256 divided by 8?
    Cogni: 256 divided by 8 is 32.0.
 
-Congratulations, you have successfully built and run your first agent with CogniCore!
+Congratulations, you have successfully built and run your first agent with CogniCoreAI!
 
 Next Steps
 ----------

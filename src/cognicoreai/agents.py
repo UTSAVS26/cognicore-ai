@@ -10,9 +10,9 @@ import json
 from typing import List
 
 # Import the new LLM abstraction and the established components
-from cognicore.llms import BaseLLM
-from cognicore.memory import BaseMemory
-from cognicore.tools import Tool
+from cognicoreai.llms import BaseLLM
+from cognicoreai.memory import BaseMemory
+from cognicoreai.tools import Tool
 
 
 class ToolHandler:

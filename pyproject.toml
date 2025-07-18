@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 # Contains all the core metadata for your package.
 # This is what will be displayed on PyPI.
 [project]
-name = "cognicore-ai"
+name = "cognicoreai"
 version = "1.0.0"
 authors = [
   { name="Utsav Singhal", email="utsavsinghal26@gmail.com" },

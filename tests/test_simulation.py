@@ -8,7 +8,7 @@ a mocked agent and that Assertions evaluate correctly.
 import unittest
 from unittest.mock import MagicMock
 
-from cognicore import (
+from cognicoreai import (
     Agent,
     BaseLLM,
     CalculatorTool,

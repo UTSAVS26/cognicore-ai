@@ -5,14 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.0.0] - 2025-07-18
 
-### Added
-- Your next new feature will be listed here.
-
-## [0.1.0] - 2025-07-18
-
-This is the initial public release of CogniCore.
+This is the initial public release of CogniCoreAI.
 
 ### Added
 - Core `Agent` class for orchestrating conversations.

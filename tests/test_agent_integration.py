@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import MagicMock
 
 # Import all the components we need to assemble an agent
-from cognicore import (
+from cognicoreai import (
     Agent,
     BaseLLM,
     CalculatorTool,

@@ -7,7 +7,7 @@ ensuring that they correctly store, retrieve, and manage conversation history.
 
 import unittest
 
-from cognicore import Message, VolatileMemory
+from cognicoreai import Message, VolatileMemory
 
 
 class TestVolatileMemory(unittest.TestCase):

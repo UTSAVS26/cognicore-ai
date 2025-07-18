@@ -16,10 +16,10 @@ sys.path.insert(0, os.path.abspath("../../src"))
 
 # -- Project information -----------------------------------------------------
 
-project = "CogniCore"
+project = "CogniCoreAI"
 copyright = "2025, Utsav Singhal"
 author = "Utsav Singhal`"
-release = "0.1.0"
+release = "1.0.0"
 
 
 # -- General configuration ---------------------------------------------------

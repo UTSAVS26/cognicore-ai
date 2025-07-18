@@ -4,9 +4,9 @@
 User Guide
 ==========
 
-Welcome to the CogniCore User Guide. This guide explains the fundamental concepts and design principles behind the framework. Where the "Getting Started" tutorial shows you *what* to do, this guide explains *why* you do it.
+Welcome to the CogniCoreAI User Guide. This guide explains the fundamental concepts and design principles behind the framework. Where the "Getting Started" tutorial shows you *what* to do, this guide explains *why* you do it.
 
-Understanding these core concepts will help you unlock the full potential of CogniCore and build more advanced and customized agents.
+Understanding these core concepts will help you unlock the full potential of CogniCoreAI and build more advanced and customized agents.
 
 .. toctree::
    :maxdepth: 1

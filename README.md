@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>🤖 CogniCore AI</h1>
+  <h1>🤖 CogniCoreAI</h1>
 
   <p>
     <strong>A modular Python framework for building, testing, and deploying robust conversational AI agents.</strong>
@@ -19,9 +19,9 @@
 
 ---
 
-**CogniCore** is a modern Python framework designed to streamline the development of sophisticated conversational AI agents. It provides the essential building blocks for creating agents with persistent memory, swappable LLM backends, and powerful tool-use capabilities.
+**CogniCoreAI** is a modern Python framework designed to streamline the development of sophisticated conversational AI agents. It provides the essential building blocks for creating agents with persistent memory, swappable LLM backends, and powerful tool-use capabilities.
 
-What makes CogniCore unique is its built-in **behavioral simulation framework**, which allows you to rigorously test your agent's reasoning and decision-making processes, ensuring they are reliable and perform as expected.
+What makes CogniCoreAI unique is its built-in **behavioral simulation framework**, which allows you to rigorously test your agent's reasoning and decision-making processes, ensuring they are reliable and perform as expected.
 
 ## Key Features
 
@@ -34,14 +34,14 @@ What makes CogniCore unique is its built-in **behavioral simulation framework**,
 
 ## Installation
 
-CogniCore is available on PyPI and can be installed with your favorite package manager.
+CogniCoreAI is available on PyPI and can be installed with your favorite package manager.
 
 ```bash
 # Using uv (recommended)
-uv pip install cognicore
+uv pip install cognicoreai
 
 # Or using standard pip
-pip install cognicore
+pip install cognicoreai
 ```
 
 ## Quick Start
@@ -49,7 +49,7 @@ pip install cognicore
 Get your first agent running in just a few lines of code. Make sure your `OPENAI_API_KEY` environment variable is set.
 
 ```python
-from cognicore import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
+from cognicoreai import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
 
 # 1. Assemble the agent's components
 llm = OpenAI_LLM()

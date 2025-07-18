@@ -4,12 +4,12 @@
 Create a Custom Tool
 ========================
 
-The true power of an agent comes from the tools it can use. CogniCore is designed to make adding new tools as simple as possible. This guide will show you how to create a custom tool to get the current date and time.
+The true power of an agent comes from the tools it can use. CogniCoreAi is designed to make adding new tools as simple as possible. This guide will show you how to create a custom tool to get the current date and time.
 
 The Core Concept
 ----------------
 
-Any custom tool is a Python class that inherits from ``cognicore.Tool`` and correctly implements three things:
+Any custom tool is a Python class that inherits from ``cognicoreai.Tool`` and correctly implements three things:
 
 1.  A ``name`` property: A unique, single-word identifier for the tool.
 2.  A ``description`` property: A clear, natural language explanation of what the tool does. The LLM uses this to decide when to use the tool.
@@ -24,7 +24,7 @@ Let's create a tool that returns the current date and time. Create a new class, 
    :linenos:
 
    import datetime
-   from cognicore import Tool
+   from cognicoreai import Tool
 
    class DateTimeTool(Tool):
        """A tool to get the current date and time."""
@@ -52,7 +52,7 @@ Now, you can import your new tool and add it to the agent's tool list during ini
    :linenos:
    :emphasize-lines: 4, 11
 
-   from cognicore import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
+   from cognicoreai import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
    # Import your new custom tool
    from your_project_file import DateTimeTool 
 

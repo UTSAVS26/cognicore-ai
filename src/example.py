@@ -2,7 +2,7 @@ import getpass  # To securely get the API key if not set as an environment varia
 import os
 
 # Import the components from your newly built library
-from cognicore import Agent, CalculatorTool, OpenAI_LLM, VolatileMemory
+from cognicoreai import Agent, CalculatorTool, OpenAI_LLM, VolatileMemory
 
 
 def main():

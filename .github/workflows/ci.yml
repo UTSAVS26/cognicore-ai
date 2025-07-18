@@ -1,4 +1,4 @@
-name: CogniCore-AI CI
+name: CogniCoreAI CI
 
 on:
   push:

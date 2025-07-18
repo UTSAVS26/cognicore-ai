@@ -27,7 +27,7 @@ A scenario is just a Python object. We want to test if the agent, when asked "Wh
 .. code-block:: python
    :linenos:
 
-   from cognicore import Scenario, ToolUsedAssertion, ResponseContainsAssertion
+   from cognicoreai import Scenario, ToolUsedAssertion, ResponseContainsAssertion
 
    # Define the assertions that must pass for the scenario to be successful
    assertions = [
@@ -56,7 +56,7 @@ For a reproducible test, we'll use a mocked LLM, but you could also run this aga
    :emphasize-lines: 20-23
 
    from unittest.mock import MagicMock
-   from cognicore import Agent, VolatileMemory, CalculatorTool, Simulator
+   from cognicoreai import Agent, VolatileMemory, CalculatorTool, Simulator
    # We also import the scenario we just defined
    # from your_test_file import math_scenario
 

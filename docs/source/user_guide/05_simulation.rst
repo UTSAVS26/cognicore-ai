@@ -4,7 +4,7 @@
 Concept: Simulation
 ========================
 
-How do you know if your agent is reliable? The **Simulation** module is CogniCore's answer to this question. It provides a powerful framework for **behavioral testing**, allowing you to verify that your agent behaves as expected in complex, multi-turn conversations.
+How do you know if your agent is reliable? The **Simulation** module is CogniCoreAI's answer to this question. It provides a powerful framework for **behavioral testing**, allowing you to verify that your agent behaves as expected in complex, multi-turn conversations.
 
 This goes beyond traditional testing by evaluating the agent's reasoning and decision-making process.
 
@@ -14,7 +14,7 @@ The Three Pillars of Simulation
 The simulation framework is built on three core concepts:
 
 1.  ``Assertion``  
-    An assertion is a single, verifiable condition that must be true for a test to pass. It is a class with an ``evaluate(history)`` method that returns ``True`` or ``False``. CogniCore provides built-in assertions like:  
+    An assertion is a single, verifiable condition that must be true for a test to pass. It is a class with an ``evaluate(history)`` method that returns ``True`` or ``False``. CogniCoreAI provides built-in assertions like:  
     - ``ToolUsedAssertion(tool_name)``: Checks if a specific tool was ever called.  
     - ``ResponseContainsAssertion(text)``: Checks if the agent's final answer includes a certain piece of text.
 
@@ -38,7 +38,7 @@ This example demonstrates how the pieces fit together to create a robust test.
 
 .. code-block:: python
 
-   from cognicore import (
+   from cognicoreai import (
        Agent, Simulator, Scenario,
        ToolUsedAssertion, ResponseContainsAssertion,
        # ... other components

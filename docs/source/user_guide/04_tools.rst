@@ -4,7 +4,7 @@
 Concept: Tools
 ================
 
-By default, an LLM's knowledge is limited to the data it was trained on. **Tools** are what give a CogniCore agent the ability to break free from these limitations and interact with the real world. A tool is a piece of code that allows an agent to get new information or perform an action.
+By default, an LLM's knowledge is limited to the data it was trained on. **Tools** are what give a CogniCoreAI agent the ability to break free from these limitations and interact with the real world. A tool is a piece of code that allows an agent to get new information or perform an action.
 
 Examples of tools include:
 
@@ -15,7 +15,7 @@ Examples of tools include:
 The `Tool` Contract
 -------------------
 
-Every tool in CogniCore must inherit from the ``cognicore.tools.Tool`` abstract base class. This contract ensures every tool provides the critical information the LLM needs to use it effectively.
+Every tool in CogniCoreAI must inherit from the ``cognicoreai.tools.Tool`` abstract base class. This contract ensures every tool provides the critical information the LLM needs to use it effectively.
 
 1.  ``name`` **property**: A unique, simple name for the tool (e.g., ``"web_search"``). This is what the LLM will use to identify the tool it wants to call.
 2.  ``description`` **property**: This is the most important part for the LLM. It's a natural language description of what the tool does, what it's good for, and what its input should look like. A good description is essential for the agent to reason correctly about when to use the tool.
@@ -28,7 +28,7 @@ Let's look at the built-in ``CalculatorTool`` as an example.
 
 .. code-block:: python
 
-   from cognicore import Tool
+   from cognicoreai import Tool
 
    class CalculatorTool(Tool):
        @property

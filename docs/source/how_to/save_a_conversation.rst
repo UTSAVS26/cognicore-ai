@@ -4,7 +4,7 @@
 Save a Conversation to a File
 =============================
 
-Agents in CogniCore use a memory module to keep track of the conversation. While ``VolatileMemory`` forgets the history when your script ends, you can easily access this history and save it to a file for later analysis or to create a persistent record.
+Agents in CogniCoreAI use a memory module to keep track of the conversation. While ``VolatileMemory`` forgets the history when your script ends, you can easily access this history and save it to a file for later analysis or to create a persistent record.
 
 The Core Concept
 ----------------
@@ -19,7 +19,7 @@ First, let's create an agent and have a short conversation with it so there is s
 .. code-block:: python
    :linenos:
 
-   from cognicore import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
+   from cognicoreai import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
 
    agent = Agent(
        llm=OpenAI_LLM(),

@@ -1,5 +1,5 @@
 """
-CogniCore: A modular framework for building conversational AI agents.
+CogniCoreAI: A modular framework for building conversational AI agents.
 
 This top-level package provides easy access to the most important classes
 and components of the framework. By importing them here, users can enjoy

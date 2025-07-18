@@ -7,7 +7,7 @@ their inputs and returning the correct outputs.
 
 import unittest
 
-from cognicore import CalculatorTool
+from cognicoreai import CalculatorTool
 
 
 class TestCalculatorTool(unittest.TestCase):

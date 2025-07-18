@@ -1,18 +1,18 @@
-.. CogniCore documentation master file, created by
+.. CogniCoreAI documentation master file, created by
    sphinx-quickstart on Fri Jul 18 14:11:42 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 ####################################################################
-CogniCore: Build, Test, and Deploy Robust Conversational AI
+CogniCoreAI: Build, Test, and Deploy Robust Conversational AI
 ####################################################################
 
-**CogniCore** is a modular Python framework for building sophisticated conversational AI agents. It is designed from the ground up to be extensible, testable, and easy to use.
+**CogniCoreAI** is a modular Python framework for building sophisticated conversational AI agents. It is designed from the ground up to be extensible, testable, and easy to use.
 
-Whether you're building a simple chatbot or a complex, tool-using agent, CogniCore provides the foundational blocks you need, with a unique focus on **behavioral simulation** to ensure your agents are reliable and perform as expected.
+Whether you're building a simple chatbot or a complex, tool-using agent, CogniCoreAI provides the foundational blocks you need, with a unique focus on **behavioral simulation** to ensure your agents are reliable and perform as expected.
 
-.. figure:: /_static/cognicore_logo.png
-   :alt: CogniCore Logo
+.. figure:: /_static/cognicoreai_logo.png
+   :alt: CogniCoreAI Logo
    :align: center
    :width: 200px
 
@@ -34,14 +34,14 @@ Get up and running in minutes. First, install the library:
 
 .. code-block:: bash
 
-   uv pip install cognicore
+   uv pip install cognicoreai
 
 Now, create and chat with your first agent. Make sure your ``OPENAI_API_KEY`` environment variable is set.
 
 .. code-block:: python
    :linenos:
 
-   from cognicore import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
+   from cognicoreai import Agent, OpenAI_LLM, VolatileMemory, CalculatorTool
 
    # 1. Assemble the agent's components
    llm = OpenAI_LLM()
@@ -59,7 +59,7 @@ Now, create and chat with your first agent. Make sure your ``OPENAI_API_KEY`` en
 Table of Contents
 =================
 
-Explore the documentation to learn more about how to use and extend CogniCore.
+Explore the documentation to learn more about how to use and extend CogniCoreAI.
 
 .. toctree::
    :maxdepth: 2
