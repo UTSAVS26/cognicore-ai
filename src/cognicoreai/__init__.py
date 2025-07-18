@@ -14,7 +14,7 @@ Attributes:
 
 # Define the package version. This is a standard practice that allows users
 # to check the version of the library they have installed.
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 # Import key components from the submodules to make them directly accessible
 # from the top-level 'cognicore' package.

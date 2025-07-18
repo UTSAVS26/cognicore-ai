@@ -20,3 +20,7 @@ This is the initial public release of CogniCoreAI.
 - Full documentation site built with Sphinx and the Furo theme.
 - Ruff and Pytest configured for code quality and testing.
 - Project structure configured with `pyproject.toml` for modern packaging.
+
+## [1.0.1] - 2025-07-18
+### Fixed
+- Corrected README rendering and badge URLs on PyPI.
